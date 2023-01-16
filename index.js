@@ -146,23 +146,17 @@ console.log(besyuzdenkucuksayilar);
 //!3e çözümü---------------------------------------------------------------------------
 
 siralisayilar = besyuzdenkucuksayilar.sort((a, b) => a - b);
-console.log("siralisayilar:");
+
 console.log(siralisayilar);
 
 //3f çözümü
-let gorevSonArray = [{ sayi: null, tekrar: null }];
-for (let i = 0; i < sayilar.length; i++) {
-  for (let j = i + 1; j < sayilar.length; j++) {
-    if ((sayilar[i] = sayilar[i + 1])) {
-    }
-  }
-}
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 function sa() {
   console.log("Kodlar çalışıyor");
   return "as";
 }
+
 sa();
 module.exports = {
   sa,
